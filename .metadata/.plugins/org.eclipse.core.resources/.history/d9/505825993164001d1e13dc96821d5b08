@@ -1,0 +1,16 @@
+package com.arrays;
+
+import java.util.Scanner;
+
+public class Input {
+
+	public static void main(String[] args) {
+           Scanner i = new Scanner(System.in);
+           int[] arrv = new int[7];
+           for (int j = 0; j < arrv.length; j++)
+           {
+			int a  = i.nextInt(); 
+		   }
+	}
+
+}

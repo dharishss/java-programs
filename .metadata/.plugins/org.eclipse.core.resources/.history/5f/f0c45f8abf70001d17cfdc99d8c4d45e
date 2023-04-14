@@ -1,0 +1,21 @@
+package numbertheory;
+
+public class Prime {
+
+	public static void main(String[] args) {
+     int n=1;
+     if(n <= 1 )
+	 {
+		 System.out.println( n + " " + "not prime");
+	 }
+	 else
+	 {
+		 for (n = 2;  n< n-1; n++) {
+			 System.out.println(n + " "+ "prime number");
+			
+		}
+	 }
+     
+   
+	}
+}

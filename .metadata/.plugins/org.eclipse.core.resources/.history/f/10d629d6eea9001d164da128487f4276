@@ -1,0 +1,33 @@
+package com.map;
+
+import java.util.HashMap;
+
+//map is not a child interface of collection
+//we use map when ever there is key and values
+
+//hashmap
+//keys cant have dulpcates
+//do not store duplicate keys
+//haspmap can store duplicate values
+//do not have index
+//key and values are added usuing put(key,values)
+//values in hashmap are retrived using get(key)
+//do not preserve insertion order
+//underlying ds is hashtble
+
+public class hashmap {
+	public static void main(String[] args) {
+		HashMap<Integer, String> hm = new HashMap<Integer,String>();
+		hm.put(1, "harish");
+		hm.put(2, "harish");
+
+		hm.put(3, "harish");
+		hm.put(4, "harish");
+		System.out.println(hm.get(1));
+
+		
+		
+		
+	}
+
+}
